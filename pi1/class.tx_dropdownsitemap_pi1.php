@@ -43,9 +43,6 @@
  *          TOTAL FUNCTIONS: 6
  */
 
-// TYPO3 FE plugin class
-require_once( PATH_tslib . 'class.tslib_pibase.php' );
-
 // Developer API class
 require_once( t3lib_extMgm::extPath( 'api_macmade' ) . 'class.tx_apimacmade.php' );
 
