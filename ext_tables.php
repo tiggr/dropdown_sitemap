@@ -6,9 +6,6 @@ if( !defined( 'TYPO3_MODE' ) ) {
 // Includes the TCA helper class
 require_once( t3lib_extMgm::extPath( $_EXTKEY ) . 'class.tx_dropdownsitemap_tca.php' );
 
-// Load content TCA
-t3lib_div::loadTCA( 'tt_content' );
-
 // Plugin options
 $TCA[ 'tt_content' ][ 'types' ][ 'list' ][ 'subtypes_excludelist' ][ $_EXTKEY . '_pi1' ] = 'layout,select_key,pages,recursive';
 
