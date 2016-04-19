@@ -4,7 +4,7 @@ if( !defined( 'TYPO3_MODE' ) ) {
 }
 
 // FE plugins
-t3lib_extMgm::addPItoST43(
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPItoST43(
     $_EXTKEY,
     'pi1/class.tx_dropdownsitemap_pi1.php',
     '_pi1',
